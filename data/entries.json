@@ -10413,5 +10413,54 @@
     "repo": "Priyanshu-5257/scrfd-500m-wsp-compress",
     "summary": "No-training compression of the SCRFD-500M face detector by SVD of weights (rank 96) and keypoint-head removal. Combined edit cuts parameters 626,332 to 453,470 (−27.6%) with DEV Hard AP −0.66 pp. SVD alone gave no ORT latency gain (8.15 vs 8.12 ms). Structural follow-ups were negative.",
     "added": "2026-11-15"
+  },
+  {
+    "id": "aha-weight-space-programming-without-llms",
+    "title": "AHA: Weight-Space Programming Without LLMs",
+    "authors": "Ahmed Khamis, Rasul Tutunov, Haitham Bou Ammar",
+    "date": "2026-11-15",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Eppy-EpHard/AHA",
+      "post": "https://haithamb.github.io/aha/"
+    },
+    "repo": "Eppy-EpHard/AHA",
+    "summary": "Builds a rank-one edit to the MLP down_proj in two layers from the model's own samples and a linear program, with no agent and no gradient step, to stop repetition loops. Qwen3.5-0.8B GSM8K test goes from 14.0 to 71.2; MATH-500 from 9.8 to 51.8; IFEval from 19.6 to 62.7.",
+    "added": "2026-11-15"
+  },
+  {
+    "id": "wsp-evals",
+    "title": "Weight Space Programming Evals",
+    "authors": "tyranasaurus",
+    "date": "2026-11-14",
+    "venue": "GitHub",
+    "category": "bench",
+    "kind": "benchmark",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/tyranasaurus/wsp-evals"
+    },
+    "repo": "tyranasaurus/wsp-evals",
+    "summary": "Benchmark with three task families: reading trained weights (29 suites, 212 tasks over 14 network families), compiling known programs into ReLU networks, and writing networks from scratch. A verifier scores the network on unseen inputs. Seven frontier models are evaluated. The authors report little evidence that LLMs understand dense-network weights.",
+    "added": "2026-11-15"
+  },
+  {
+    "id": "tool-free-weight-space-programming-ptq",
+    "title": "Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?",
+    "authors": "urbste",
+    "date": "2026-11-15",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/urbste/weight-space-programming-ptq"
+    },
+    "repo": "urbste/weight-space-programming-ptq",
+    "summary": "Claude models receive the weights of a 20k-weight CIFAR-10 CNN as text, with no tools or data, and write a better 4-bit network. Per-channel RTN lowers test accuracy from 81.42% to 60.39%. Opus 5.5 kernel balancing by hand reaches 77.95%; exact kernel balancing in code reaches 77.80%; AdaRound reaches 80.71%.",
+    "added": "2026-11-15"
   }
 ]
