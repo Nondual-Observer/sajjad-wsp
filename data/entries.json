@@ -10349,5 +10349,53 @@
     },
     "summary": "Claude Opus 5.5 writes small weight files for Qwen3.5-4B with no training, and a router hot-swaps one in per question. With trained files for three families, the 4B scored 84.4 against 82.4 for Qwen3.5-35B-A3B on 3,548 fresh questions, with 43% of the memory. Fable 5.2 as writer tied Opus 5.5.",
     "added": "2026-11-14"
+  },
+  {
+    "id": "ruv-fann-wsp",
+    "title": "ruvnet/ruv-FANN",
+    "authors": "ruvnet",
+    "date": "2025-06-26",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ruvnet/ruv-FANN"
+    },
+    "repo": "ruvnet/ruv-FANN",
+    "summary": "Rust, JavaScript and WebAssembly neural network library. Its weight-space programming packages inspect activations, build bounded weight patches, evaluate a candidate against its baseline, and then promote or roll back the revision. Includes an interactive browser demo of a WASM weight edit. Also holds unrelated forecasting, agent and GPU projects.",
+    "added": "2026-11-14"
+  },
+  {
+    "id": "trehansalil-weight-edit-vs-icl-vs-lora",
+    "title": "trehansalil/weight-space-programming",
+    "authors": "trehansalil",
+    "date": "2026-11-15",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/trehansalil/weight-space-programming"
+    },
+    "repo": "trehansalil/weight-space-programming",
+    "summary": "Replicates a post's closed-form weight edit on Qwen3.5-0.8B (mlp.down_proj, layers 19, 21, 23) with MLX on Apple silicon. Compares the edit with many-shot prompting and LoRA on the same supervision across 15 tasks. Reports paired confidence intervals, forgetting (WikiText-2, ARC-Easy) and cost. One seed.",
+    "added": "2026-11-14"
+  },
+  {
+    "id": "how-small-can-a-weight-space-programmer-be",
+    "title": "How Small Can a Weight-Space Programmer Be?",
+    "authors": "Xintian Huang",
+    "date": "2026-11-15",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/lemonadesaltbagel/how-small-wsp"
+    },
+    "repo": "lemonadesaltbagel/how-small-wsp",
+    "summary": "Editors (Qwen 3.5 0.8B, 9B and 27B, deepseek-flash, and Claude Opus 5.5 as a frontier reference) each try to repair the reasoning loops of a damaged Qwen3.5-0.8B through its weights. One protocol applies a fixed forward-pass budget, a pre-execution rule reviewer and a post-hoc audit of every tool call. Releases episode records and an audit of a published run.",
+    "added": "2026-11-14"
   }
 ]
