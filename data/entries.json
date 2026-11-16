@@ -10478,5 +10478,21 @@
     },
     "summary": "Studies whether general-purpose LLMs can inject backdoors by directly editing target model weights from natural-language instructions, without data, forward passes or gradients. Five LLMs are tested on an MLP (MNIST), ResNet-18 (CIFAR-10) and Qwen2.5-0.5B-Instruct (AG News). Backdoors need as few as six MLP parameters or 0.02% of Qwen weights; only one LLM succeeds on all three targets.",
     "added": "2026-11-15"
+  },
+  {
+    "id": "jake-song-weight-space-programming",
+    "title": "Jake-Song/weight-space-programming",
+    "authors": "Jake-Song",
+    "date": "2026-11-16",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Jake-Song/weight-space-programming"
+    },
+    "repo": "Jake-Song/weight-space-programming",
+    "summary": "Reproduces the published Qwen3.5-0.8B weight edit with tensor SHA256 checks, then compares layer 15, layer 19 and both on 100 held-out MATH-500 problems, one sample each. Accuracy: original 8%, layer 15 41%, layer 19 31%, both 57%, thinking off 51%, random-direction control 11%.",
+    "added": "2026-11-16"
   }
 ]
