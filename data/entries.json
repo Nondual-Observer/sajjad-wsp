@@ -10462,5 +10462,21 @@
     "repo": "urbste/weight-space-programming-ptq",
     "summary": "Claude models receive the weights of a 20k-weight CIFAR-10 CNN as text, with no tools or data, and write a better 4-bit network. Per-channel RTN lowers test accuracy from 81.42% to 60.39%. Opus 5.5 kernel balancing by hand reaches 77.95%; exact kernel balancing in code reaches 77.80%; AdaRound reaches 80.71%.",
     "added": "2026-11-15"
+  },
+  {
+    "id": "can-llms-write-backdoors-wsp-security-study",
+    "title": "Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming",
+    "authors": "Zhaojia Wang, Jiucui Lu, Zheng Li",
+    "org": "Shandong University",
+    "date": "2026-11-12",
+    "venue": "Preprint",
+    "category": "analysis",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.17395"
+    },
+    "summary": "Studies whether general-purpose LLMs can inject backdoors by directly editing target model weights from natural-language instructions, without data, forward passes or gradients. Five LLMs are tested on an MLP (MNIST), ResNet-18 (CIFAR-10) and Qwen2.5-0.5B-Instruct (AG News). Backdoors need as few as six MLP parameters or 0.02% of Qwen weights; only one LLM succeeds on all three targets.",
+    "added": "2026-11-15"
   }
 ]
