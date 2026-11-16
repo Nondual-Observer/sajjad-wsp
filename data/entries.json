@@ -10494,5 +10494,86 @@
     "repo": "Jake-Song/weight-space-programming",
     "summary": "Reproduces the published Qwen3.5-0.8B weight edit with tensor SHA256 checks, then compares layer 15, layer 19 and both on 100 held-out MATH-500 problems, one sample each. Accuracy: original 8%, layer 15 41%, layer 19 31%, both 57%, thinking off 51%, random-direction control 11%.",
     "added": "2026-11-16"
+  },
+  {
+    "id": "weightbench",
+    "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+    "authors": "Aayush Marasini, Barsat Khadka, Nick Rahimi",
+    "org": "The University of Southern Mississippi",
+    "date": "2026-11-13",
+    "venue": "Preprint",
+    "category": "bench",
+    "kind": "benchmark",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.18553",
+      "code": "https://github.com/Aayush-Marasini/WeightBench"
+    },
+    "repo": "Aayush-Marasini/WeightBench",
+    "summary": "Benchmark of 42 weight-space programming tasks across five tracks: reading, fixing and writing weights, recognizing impossible edits, and data-free compression. Target networks range from 2K-parameter control policies to 7B language models. Claude Opus 5.5 reaches a macro score of 0.535 on all 42 tasks. Includes an OS-level sandbox harness and a live leaderboard.",
+    "added": "2026-11-16"
+  },
+  {
+    "id": "iwsp-transparent-transformers-brain-encoding",
+    "title": "Interpretable weight-space programming builds transparent transformers and brain encoding models",
+    "authors": "Yash Mehta, Chandan Singh, Weijia Xu, Richard J. Antonello, et al.",
+    "date": "2026-11-13",
+    "venue": "Preprint",
+    "category": "llm-write",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.18114"
+    },
+    "summary": "An LLM agent builds interpretable models by programming their weights and features in code, without backpropagation. Tested first on transformers for arithmetic and sentiment classification, then on neural encoding models for visual cortex, language fMRI and auditory ECoG. In the visual cortex it outpredicts existing interpretable baselines and generalizes to unseen data.",
+    "added": "2026-11-16"
+  },
+  {
+    "id": "yadavdevv-wsp-exp",
+    "title": "yadavdevv/wsp-exp",
+    "authors": "yadavdevv",
+    "date": "2026-11-16",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/yadavdevv/wsp-exp"
+    },
+    "repo": "yadavdevv/wsp-exp",
+    "summary": "Twelve small experiments on writing or editing weights without training, from hand-written networks to small LLM edits. Reports a lunar-lander pilot patched from 0-49% to 91-100% by changing 64-259 of 4,867 weights, and Qwen3.5-0.8B on GSM8K (100 problems): base 15%, logit bias 54%, edit 65%.",
+    "added": "2026-11-16"
+  },
+  {
+    "id": "minimax-h3-turbo-lora-edit",
+    "title": "Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora",
+    "authors": "Ganto12",
+    "date": "2026-11-16",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora"
+    },
+    "repo": "Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora",
+    "summary": "Edits the weights of the Turbo-8 speed LoRA for MiniMax H3, a joint audio and video diffusion transformer, with no gradients, to stop unwanted speech on silent prompts. On 30 held-out prompts the S4 edit cut unwanted speech per clip from 0.93 s to 0.21 s, with motion at 0.65 of 1.00.",
+    "added": "2026-11-16"
+  },
+  {
+    "id": "bandr-ai-dawe",
+    "title": "bandr-ai/dawe",
+    "authors": "bandr-ai",
+    "date": "2026-11-12",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/bandr-ai/dawe"
+    },
+    "repo": "bandr-ai/dawe",
+    "summary": "Agent skill for fixing model behavior with small weight edits. Given data and a checkpoint, the agent prepares splits, diagnoses failing token decisions, derives closed-form candidate edits, compares controls, and exports a checkpoint-bound, reversible .gpatch tested in a fresh inference process. The repo supplies preparation commands, a state collector and patch tools.",
+    "added": "2026-11-16"
   }
 ]
