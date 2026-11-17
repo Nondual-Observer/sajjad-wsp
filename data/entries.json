@@ -10784,5 +10784,22 @@
     "repo": "assassin808/edit-lens",
     "summary": "Rebuilds Astra's rank-one edit to Qwen3.5-0.8B (layers 15 and 19, α = 6) and tests it with ten interpretability tools and controls that change the model. The rebuild gives MATH-500 7.6% to 51.9% under the same protocol (original post: 7.9% to 48.1%).",
     "added": "2026-11-17"
+  },
+  {
+    "id": "freakwinsea-weightspace",
+    "title": "WeightSpace: a frontier model editing small-model weights directly",
+    "authors": "freakwinsea",
+    "date": "2026-11-13",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/freakwinsea/WeightSpace",
+      "model": "https://huggingface.co/Freakwinsea/Qwen3.5-2B-doubt-edit"
+    },
+    "repo": "freakwinsea/WeightSpace",
+    "summary": "Claude Opus 5.5, with a 50-call budget and no gradients, edited down_proj weights of Qwen3.5-2B (383k weights) to reduce re-checking. Held-out MATH-500 accuracy rose from 20.6% to 27.2% at 4k tokens (p = 0.0002); a random-direction control did nothing. Gain on 0.8B was unconfirmed, and 4B showed none. Ran on one consumer GPU.",
+    "added": "2026-11-17"
   }
 ]
