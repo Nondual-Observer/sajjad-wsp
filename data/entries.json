@@ -10801,5 +10801,67 @@
     "repo": "freakwinsea/WeightSpace",
     "summary": "Claude Opus 5.5, with a 50-call budget and no gradients, edited down_proj weights of Qwen3.5-2B (383k weights) to reduce re-checking. Held-out MATH-500 accuracy rose from 20.6% to 27.2% at 4k tokens (p = 0.0002); a random-direction control did nothing. Gain on 0.8B was unconfirmed, and 4B showed none. Ran on one consumer GPU.",
     "added": "2026-11-17"
+  },
+  {
+    "id": "wsp-for-materials-science",
+    "title": "Weight-Space Programming for Materials Science",
+    "authors": "Sk Md Ahnaf Akif Alvi, Raymundo Arróyave",
+    "date": "2026-11-17",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.22013"
+    },
+    "summary": "A general-purpose LLM fills in all weights of a zero-initialised 16-hidden-unit network from a task description and input names, with no labels. The networks rank experimental alloys at Spearman 0.64 to 0.79 and crystal bulk modulus at 0.95. As a Gaussian-process prior mean at five labels, alloy ranking rises from 0.35 to 0.69.",
+    "added": "2026-11-17"
+  },
+  {
+    "id": "wsp-tractor-guidance-controller",
+    "title": "Weight-space programming for tractor guidance controller: large language models natively write neural network weights that steer a real tractor",
+    "authors": "Timo Oksanen",
+    "date": "2026-11-16",
+    "venue": "Preprint",
+    "category": "robotics-rl",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.21958"
+    },
+    "summary": "Two LLMs repaired a 253-parameter tractor steering network trained for another tractor and wrote a controller from zero weights, using a small budget of simulated evaluations. An evolution strategy found no controller from zero. Gradient descent reached higher accuracy with far more simulation. All LLM controllers steered a real tractor without intervention, with errors of the same order as pure pursuit.",
+    "added": "2026-11-17"
+  },
+  {
+    "id": "nbirkner-wsp-open-replication",
+    "title": "nbirkner/weight-space-programming-open",
+    "authors": "nbirkner",
+    "date": "2026-11-18",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/nbirkner/weight-space-programming-open"
+    },
+    "repo": "nbirkner/weight-space-programming-open",
+    "summary": "Open-model replication of Sparks of Weight-Space Programming using models on Together, with a strict one-shot test, a simulator-assisted version, no-LLM search controls and a leakage check on a shuffled network. On the car task open models did not match the one-shot result. With tools, a cheap open model wrote a working edit about 4 times in 10, at about $0.14 per attempt.",
+    "added": "2026-11-17"
+  },
+  {
+    "id": "wsp-workbench-mindsculpt",
+    "title": "Rowanjgc/mindsculpt",
+    "authors": "Rowanjgc",
+    "date": "2026-11-17",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Rowanjgc/mindsculpt"
+    },
+    "repo": "Rowanjgc/mindsculpt",
+    "summary": "Open-source, model-agnostic Weight-Space Programming Workbench with Python, CLI and JSON tool-schema interfaces. Covers checkpoint inspection, tensor analysis, activation capture, versioned weight patches (replace, add, scale, rank-one, projection) with export and rollback, generation traces, detectors and experiment artifacts. Offline CPU tests; no LLM required.",
+    "added": "2026-11-17"
   }
 ]
