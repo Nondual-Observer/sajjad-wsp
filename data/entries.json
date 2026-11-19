@@ -10926,5 +10926,53 @@
     "repo": "brianbell-x/codehygiene",
     "summary": "A 23.84 KiB 1.58-bit model for code readability: 35 ternary tensors (1,244,706 trits) compiled deterministically from compile.py without training data or gradient descent. It runs in NumPy or browser workers across 20+ languages. No accuracy numbers are stated in the README excerpt.",
     "added": "2026-11-18"
+  },
+  {
+    "id": "wsp-vision-language-model-repair",
+    "title": "Weight Space Programming for Vision Language Model Repair",
+    "authors": "Avinash Goutham Aluguvelly",
+    "org": "The University of Texas at Austin",
+    "date": "2026-11-17",
+    "venue": "Preprint",
+    "category": "llm-repair",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.23615"
+    },
+    "summary": "Faults are planted in the weights of SmolVLM-256M and LFM2-VL-450M, and a coding agent's edits are checked against the original weights. The agent restores most or all rescaled weights exactly. Rounding away the 32-bit trace in the low bits stops exact restoration unaided. The paper recommends reporting number format and a rounded control.",
+    "added": "2026-11-18"
+  },
+  {
+    "id": "weightspace-programming-for-material-science",
+    "title": "sheikhahnaf/weightspace-programming-for-material-science",
+    "authors": "sheikhahnaf",
+    "date": "2026-11-11",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/sheikhahnaf/weightspace-programming-for-material-science"
+    },
+    "repo": "sheikhahnaf/weightspace-programming-for-material-science",
+    "summary": "A language model writes every weight of a 16-unit property-prediction network from a task description, with no data or training. Opus 5.5 ranks experimental alloys at Spearman ρ 0.64 to 0.79, against 0.47 to 0.62 for the best simple descriptor. Also tested as a Gaussian-process prior, in Bayesian optimization and as a crystal-generator filter.",
+    "added": "2026-11-18"
+  },
+  {
+    "id": "wspmathbench",
+    "title": "WSPMathBench",
+    "authors": "yagoiroot",
+    "date": "2026-11-18",
+    "venue": "GitHub",
+    "category": "bench",
+    "kind": "benchmark",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/yagoiroot/WSPMathBench"
+    },
+    "repo": "yagoiroot/WSPMathBench",
+    "summary": "Benchmark of whether a primary LLM can improve a tiny model's mathematics by editing its weights in one reply, without running or training it. Five tiny models (Qwen3.5-0.8B, MobileLLM-R1-950M, LFM2.5-350M, gemma-3-270m-it, TinyStories-33M) are scored on held-out math. Two tiers: JSON edit spec and Python code.",
+    "added": "2026-11-18"
   }
 ]
