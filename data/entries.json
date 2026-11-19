@@ -11015,5 +11015,37 @@
     },
     "summary": "Edits fitted choice weights in concept-supervised text models so a larger benefit is needed to override a formal pledge than an ordinary promise. Across six trained readers, the edit selects the larger group on 100% of targeted ordinary conflicts and 83.3% of targeted formal conflicts. In a YOLO11n pilot on COCO128, a bias edit raised small-target matches from 3/43 to 9/43.",
     "added": "2026-11-19"
+  },
+  {
+    "id": "weight-space-programming-edit-minimax-h3-turbo-lora",
+    "title": "Weight-space programming edit: MiniMax H3 Turbo LoRA",
+    "authors": "Ganto12",
+    "date": "2026-11-16",
+    "venue": "GitHub",
+    "category": "diffusion",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora-proof-of-concept"
+    },
+    "repo": "Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora-proof-of-concept",
+    "summary": "Edits the weights of the Turbo-8 speed LoRA for the MiniMax H3 audio-video diffusion transformer, without gradients, to stop unwanted speech on silent prompts. On 30 held-out prompts the S4 edit cuts stray speech 4.3x (0.93 s to 0.21 s per clip) and motion falls to 0.65.",
+    "added": "2026-11-19"
+  },
+  {
+    "id": "wsp-study-legal-qa-125m",
+    "title": "wsp-study: weight-space programming on a 125M legal QA model",
+    "authors": "Ace-2504",
+    "date": "2026-11-19",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Ace-2504/wsp-study"
+    },
+    "repo": "Ace-2504/wsp-study",
+    "summary": "Tests installing an abstention behavior (\"not stated in the context\") in a 125.8M legal QA model by direct weight edits, against LoRA, full fine-tuning, random edits, AI-agent editors and random search. A one-neuron edit gives +0.724 abstention on a frozen test; random search matched the agent editors.",
+    "added": "2026-11-19"
   }
 ]

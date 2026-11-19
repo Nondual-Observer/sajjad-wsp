@@ -74,6 +74,12 @@
     "blurb": "LLMs writing the parameters of variational quantum circuits directly."
   },
   {
+    "id": "diffusion",
+    "title": "Diffusion and Generative Media Models",
+    "emoji": "🧪",
+    "blurb": "Weight edits on image, video and audio diffusion models and their adapters."
+  },
+  {
     "id": "bench",
     "title": "Benchmarks and Evaluations",
     "emoji": "📊",
