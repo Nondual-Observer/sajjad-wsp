@@ -7318,12 +7318,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2401.11963"
+      "paper": "https://arxiv.org/abs/2401.11963",
+      "code": "https://github.com/yeshenpy/awesome-evolutionary-reinforcement-learning"
     },
     "summary": "Surveys hybrids of evolutionary algorithms and reinforcement learning in three directions: EA-assisted optimization of RL, RL-assisted optimization of EA, and synergistic optimization, analyzing research branches in each, the problems they address, and open challenges.",
     "added": "2026-11-07",
     "citations": 118,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "yeshenpy/awesome-evolutionary-reinforcement-learning"
   },
   {
     "id": "risi-2025-neuroevolution-harnessing-survey",
@@ -7469,12 +7471,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2308.06767"
+      "paper": "https://arxiv.org/abs/2308.06767",
+      "code": "https://github.com/hrcheng1066/awesome-pruning"
     },
     "summary": "Reviews pruning in a four-part taxonomy: universal or specific speedup, when to prune, how to prune, and fusion with other compression; compares eight pairs of contrast settings and covers LLM and multimodal model pruning.",
     "added": "2026-11-07",
     "citations": 626,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "hrcheng1066/awesome-pruning"
   },
   {
     "id": "he-2024-structured-pruning-survey",
@@ -7486,12 +7490,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2303.00566"
+      "paper": "https://arxiv.org/abs/2303.00566",
+      "code": "https://github.com/he-y/awesome-pruning"
     },
     "summary": "Surveys structured pruning of deep convolutional networks, comparing techniques by filter ranking, regularization, dynamic execution, neural architecture search, the lottery ticket hypothesis, and applications, while contrasting them with unstructured pruning and outlining research opportunities.",
     "added": "2026-11-07",
     "citations": 447,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "he-y/awesome-pruning"
   },
   {
     "id": "liu-2024-lottery-ticket-survey",
@@ -8081,12 +8087,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2502.05206"
+      "paper": "https://arxiv.org/abs/2502.05206",
+      "code": "https://github.com/xingjunm/awesome-large-model-safety"
     },
     "summary": "Reviews safety research on vision foundation, language, vision-language and diffusion models and model-powered agents, with a taxonomy of threats from adversarial and backdoor attacks to jailbreaks and extraction, plus defenses, benchmarks and open challenges.",
     "added": "2026-11-07",
     "citations": 82,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "xingjunm/awesome-large-model-safety"
   },
   {
     "id": "wang-2025-comprehensive-llm-survey",
@@ -8217,12 +8225,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2409.18169"
+      "paper": "https://arxiv.org/abs/2409.18169",
+      "code": "https://github.com/git-disl/awesome_llm-harmful-fine-tuning-papers"
     },
     "summary": "Reviews harmful fine-tuning attacks and defenses for LLMs, formulating the threat model and organizing the literature by attack setting, defense design and evaluation methodology, with a curated companion paper list.",
     "added": "2026-11-07",
     "citations": 107,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "git-disl/awesome_llm-harmful-fine-tuning-papers"
   },
   {
     "id": "qi-2024-evaluating-durability-survey",
@@ -8521,12 +8531,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2507.21046"
+      "paper": "https://arxiv.org/abs/2507.21046",
+      "code": "https://github.com/CharlesQ9/Self-Evolving-Agents"
     },
     "summary": "Reviews self-evolving agents along three dimensions: what to evolve across agent components such as models, memory, tools and architecture, when to adapt by stage, and how, plus benchmarks, applications in coding, education and healthcare, and open challenges.",
     "added": "2026-11-07",
     "citations": 182,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "CharlesQ9/Self-Evolving-Agents"
   },
   {
     "id": "fang-2025-comprehensive-self-survey",
@@ -8538,12 +8550,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2508.07407"
+      "paper": "https://arxiv.org/abs/2508.07407",
+      "code": "https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents"
     },
     "summary": "Reviews self-evolving AI agents through a unified feedback-loop framework of system inputs, agent system, environment and optimisers, surveying techniques targeting each component, domain-specific strategies in biomedicine, programming and finance, and evaluation, safety and ethics.",
     "added": "2026-11-07",
     "citations": 222,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "EvoAgentX/Awesome-Self-Evolving-Agents"
   },
   {
     "id": "ren-2026-self-improvements-survey",
@@ -8555,12 +8569,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2607.13104"
+      "paper": "https://arxiv.org/abs/2607.13104",
+      "code": "https://github.com/selfimproving-agent/awesome-Self-Improving-Agents"
     },
     "summary": "Frames modern self-improving agents as a foundation model coupled with a scaffold of prompts, memory, tools and control logic, formalizes self-improvement as a self-induced update operator, and organizes prior work by update target and driving signal.",
     "added": "2026-11-07",
     "citations": 24,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "selfimproving-agent/awesome-Self-Improving-Agents"
   },
   {
     "id": "chen-2026-recursive-self-survey",
@@ -8619,12 +8635,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2602.00359"
+      "paper": "https://arxiv.org/abs/2602.00359",
+      "code": "https://github.com/A-EVO-Lab/A-EVOLVE"
     },
     "summary": "Argues that agentic evolution, in which an autonomous evolver agent drives deployment-time adaptation, is the future of LLM adaptation, introduces the A-Evolve framework, and proposes an evolution-scaling hypothesis tying adaptation capacity to evolution compute.",
     "added": "2026-11-07",
     "citations": 19,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "A-EVO-Lab/A-EVOLVE"
   },
   {
     "id": "clune-2019-ai-gas-survey",
@@ -8704,12 +8722,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2505.13259"
+      "paper": "https://arxiv.org/abs/2505.13259",
+      "code": "https://github.com/hkust-knowcomp/awesome-llm-scientific-discovery"
     },
     "summary": "Surveys LLMs in scientific discovery through a three-level taxonomy of Tool, Analyst and Scientist that reflects escalating autonomy across the research lifecycle, and identifies challenges including robotic automation, self-improvement and ethical governance.",
     "added": "2026-11-07",
     "citations": 131,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "hkust-knowcomp/awesome-llm-scientific-discovery"
   },
   {
     "id": "ren-2025-scientific-intelligence-survey",
@@ -8738,12 +8758,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2508.14111"
+      "paper": "https://arxiv.org/abs/2508.14111",
+      "code": "https://github.com/AgenticScience/Awesome-Agent-Scientists"
     },
     "summary": "Reviews autonomous scientific discovery across life sciences, chemistry, materials science and physics, unifying process-, autonomy- and mechanism-oriented perspectives in a framework with five core capabilities and a four-stage discovery workflow.",
     "added": "2026-11-07",
     "citations": 102,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "AgenticScience/Awesome-Agent-Scientists"
   },
   {
     "id": "chen-2025-ai4research-artificial-survey",
@@ -8772,12 +8794,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2501.04306"
+      "paper": "https://arxiv.org/abs/2501.04306",
+      "code": "https://github.com/du-nlp-lab/LLM4SR"
     },
     "summary": "Surveys the roles of LLMs across four stages of the research cycle: hypothesis discovery, experiment planning and implementation, scientific writing and peer reviewing, covering task-specific methods, evaluation benchmarks, challenges and future directions.",
     "added": "2026-11-07",
     "citations": 110,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "du-nlp-lab/LLM4SR"
   },
   {
     "id": "gridach-2025-agentic-ai-survey",
@@ -9564,10 +9588,12 @@
     "kind": "benchmark",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2611.08647"
+      "paper": "https://arxiv.org/abs/2611.08647",
+      "code": "https://github.com/hcltech-robotics/iwibench"
     },
     "summary": "Benchmark of a large editor model modifying the weights of a smaller target model (typically Gemma 3 4B IT) for ten text-editing objectives. Editors get four weight read/write tools and a fixed rollout budget. A validator applies each patch and compares it with the unmodified target. A few models lead far ahead; structured response was never solved.",
-    "added": "2026-11-08"
+    "added": "2026-11-08",
+    "repo": "hcltech-robotics/iwibench"
   },
   {
     "id": "weight-space-programming-at-scale",
