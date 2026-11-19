@@ -11000,5 +11000,20 @@
     "repo": "yagoiroot/WSPMathBench",
     "summary": "Benchmark of whether a primary LLM can improve a tiny model's mathematics by editing its weights in one reply, without running or training it. Five tiny models (Qwen3.5-0.8B, MobileLLM-R1-950M, LFM2.5-350M, gemma-3-270m-it, TinyStories-33M) are scored on held-out math. Two tiers: JSON edit spec and Python code.",
     "added": "2026-11-18"
+  },
+  {
+    "id": "weight-space-programming-ethical-priorities",
+    "title": "Can Weight-Space Programming Alter Learned Ethical Priorities?",
+    "authors": "Kai Yi Ji",
+    "date": "2026-11-18",
+    "venue": "Preprint",
+    "category": "other-nlp",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.24330"
+    },
+    "summary": "Edits fitted choice weights in concept-supervised text models so a larger benefit is needed to override a formal pledge than an ordinary promise. Across six trained readers, the edit selects the larger group on 100% of targeted ordinary conflicts and 83.3% of targeted formal conflicts. In a YOLO11n pilot on COCO128, a bias edit raised small-target matches from 3/43 to 9/43.",
+    "added": "2026-11-19"
   }
 ]
