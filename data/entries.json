@@ -11127,5 +11127,132 @@
     "repo": "johantillman/wsp-swedish-definiteness",
     "summary": "A pre-registered test of a targeted rank-1 edit to one late MLP of gpt-neo-125M for Swedish definiteness. Held-out accuracy was unchanged at 78.33% (+0.0 pp, p = 1.000). Same-size random edits, a 4-shot prompt, LoRA and a steering vector also stayed at 78.33%. Includes a critical review of the original report.",
     "added": "2026-11-19"
+  },
+  {
+    "id": "training-vision-models-for-llm-driven-weight-space-programming",
+    "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+    "authors": "Timo Ropinski, Sebastian Kranz",
+    "date": "2026-11-19",
+    "venue": "Preprint",
+    "category": "bench",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.26408",
+      "project": "https://viscom.uni-ulm.de/wsp"
+    },
+    "summary": "Benchmark of LLM-driven weight-space programming on vision models: five LLMs edit convolutional networks and vision transformers on relabeling and error-correction tasks (Waterbirds, CIFAR-100, PACS, Entity-30), over 2,600 edit processes. Proposes Edit-Ready Training, which rehearses closed-form edits and raises edit success where standard networks are hard to edit.",
+    "added": "2026-11-20"
+  },
+  {
+    "id": "weightcode",
+    "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+    "authors": "Bo Li, Taoyong Cui, Bob Zhang, Mengran Li, et al.",
+    "date": "2026-11-19",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.25476",
+      "code": "https://github.com/Gen-Verse/WeightCode"
+    },
+    "summary": "A frozen language model writes executable weight programs that install new computations into trained networks without gradient training. Unseen command compositions go from 0% to 99.8% exact match and a pickup action from 0% to 98.4%. On ImageNet, four programs give net gains of 8.84-17.62 points, outperforming the best of eight fine-tuning methods under matched constraints.",
+    "added": "2026-11-20"
+  },
+  {
+    "id": "can-an-llm-fix-a-language-model-without-training-it",
+    "title": "Can an LLM Fix a Language Model Without Training It?",
+    "authors": "Bharath Kumar Bolla, Raghavender Surya Upadhayula, Vishnu Surya Reddy Nandi, Ramesh Nandipalli",
+    "date": "2026-11-19",
+    "venue": "Preprint",
+    "category": "llm-repair",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.25613"
+    },
+    "summary": "Controlled study of Transformer repair in which an editor selects projection recipes to apply without gradient updates, over 20 recorded sessions on five language models. Compared with fixed projections, black-box search and LoRA. On Pythia, live selection reaches 65.62% completion accuracy versus 0% for black-box search; on a compound fault the mean rises from 24.89% to 71.25%.",
+    "added": "2026-11-20"
+  },
+  {
+    "id": "ephraiemsarabamoun-weight-space-programming-reproduction",
+    "title": "EphraiemSarabamoun/weight-space-programming-reproduction",
+    "authors": "EphraiemSarabamoun",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/EphraiemSarabamoun/weight-space-programming-reproduction"
+    },
+    "repo": "EphraiemSarabamoun/weight-space-programming-reproduction",
+    "summary": "Reproduction of experiments 1-6 of Sparks of Weight-Space Programming with Claude Opus 5.5 in place of GPT-6 Astra, using the authors' exact prompts. Opus names 4/4 games and 3/3 shapes, fixes the Kinetix car policy (1,024/1,024) changing 1.70% of weights, and beats PPO-100M in 3/3 MinAtar games.",
+    "added": "2026-11-20"
+  },
+  {
+    "id": "lextoumbourou-weight-space-programming-experiments",
+    "title": "lextoumbourou/weight-space-programming-experiments",
+    "authors": "lextoumbourou",
+    "date": "2026-11-20",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/lextoumbourou/weight-space-programming-experiments"
+    },
+    "repo": "lextoumbourou/weight-space-programming-experiments",
+    "summary": "Extra tests for the Weight-Space Programming post: eight models name the game from the authors' four game networks, each with a shape-only control prompt. Also a DQN blind test with Astra, and MNIST and cats-vs-dogs tests in which Claude writes all CNN weights using training-set feedback.",
+    "added": "2026-11-20"
+  },
+  {
+    "id": "robgruhl-weight-space-programming",
+    "title": "RobGruhl/weight-space-programming",
+    "authors": "RobGruhl",
+    "date": "2026-11-10",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/RobGruhl/weight-space-programming"
+    },
+    "repo": "RobGruhl/weight-space-programming",
+    "summary": "Replication lab: an independent audit rebuilds the published p50c tensors bit for bit (130,188 BF16 entries). On four toy arithmetic questions, baseline completes 3/4 correctly, p50c 4/4, a shuffled-direction control 3/4. A weights-only attention-head reading test failed (Spearman rho -0.056 on 20 synthetic sequences).",
+    "added": "2026-11-20"
+  },
+  {
+    "id": "mhviraf-weight-space-programming",
+    "title": "mhviraf/weight-space-programming",
+    "authors": "mhviraf",
+    "date": "2026-11-11",
+    "venue": "GitHub",
+    "category": "bench",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/mhviraf/weight-space-programming"
+    },
+    "repo": "mhviraf/weight-space-programming",
+    "summary": "Tests whether Claude Haiku, Sonnet and Opus 5.5 can improve a 13-10-10-3 MLP on UCI Wine by hand-editing weights within 30 forward passes. With no information about the data, held-out accuracy at high effort is 85.5% for Opus, 65.4% for Sonnet, 52.8% for Haiku, against 57.9% for random search.",
+    "added": "2026-11-20"
+  },
+  {
+    "id": "model-intervention-records",
+    "title": "MIR-1-WSP/model-intervention-records",
+    "authors": "MIR-1-WSP",
+    "date": "2026-11-18",
+    "venue": "GitHub",
+    "category": "bench",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/MIR-1-WSP/model-intervention-records"
+    },
+    "repo": "MIR-1-WSP/model-intervention-records",
+    "summary": "Specification and validator for weight-space claims: each record carries an executable falsifier, an invariant set and content-addressed lineage to the base checkpoint. The worked example re-records a public run where response length dropped while GSM8K accuracy fell from 46% to 0%. Companion specs cover weight patches and record qualifiers.",
+    "added": "2026-11-20"
   }
 ]
