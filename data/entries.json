@@ -11047,5 +11047,85 @@
     "repo": "Ace-2504/wsp-study",
     "summary": "Tests installing an abstention behavior (\"not stated in the context\") in a 125.8M legal QA model by direct weight edits, against LoRA, full fine-tuning, random edits, AI-agent editors and random search. A one-neuron edit gives +0.724 abstention on a frozen test; random search matched the agent editors.",
     "added": "2026-11-19"
+  },
+  {
+    "id": "sellma-weightspace-kulish",
+    "title": "Weight-space programming for Swedish: agent-driven edits to Gemma 4 12B IT",
+    "authors": "Vadym Kulish",
+    "date": "2026-11-19",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/v-kulish/sellma_weightspace"
+    },
+    "repo": "v-kulish/sellma_weightspace",
+    "summary": "A coding agent edits Gemma 4 12B IT MLP weights without gradient training to prefer grammatical Swedish. Held-out Swe-BLiMP accuracy moved +0.61 pp [−0.42, +1.65] (unchanged 69.08%), with no clear gain over matched random edits. Belebele languages stayed within tolerance. Changing the scoring prompt moved the benchmark +16.9 pp.",
+    "added": "2026-11-19"
+  },
+  {
+    "id": "martoast-weight-space-programming",
+    "title": "Weight-Space Programming: Can an LLM Debug a Neural Network by Reading Its Weights?",
+    "authors": "martoast",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/martoast/weight-space-programming"
+    },
+    "repo": "martoast/weight-space-programming",
+    "summary": "Nine small-scale experiments on an 8 GB laptop. In a blind test with 10 planted GPT-2 small bugs, Claude auditors without gradient training exactly restored 4 of 10. A rule-based doctor fixed none. An edit to Qwen2.5-0.5B-Instruct left GSM8K at 42.5% vs 41.5%. Auditors missed a trigger-phrase backdoor.",
+    "added": "2026-11-19"
+  },
+  {
+    "id": "abelo9996-weight-space-programming",
+    "title": "Weight-Space Programming",
+    "authors": "Abelo9996",
+    "date": "2026-11-19",
+    "venue": "GitHub",
+    "category": "bench",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Abelo9996/weight-space-programming"
+    },
+    "repo": "Abelo9996/weight-space-programming",
+    "summary": "Research package testing whether a language-model editor repairs equivalent policy checkpoints, with weights rearranged without changing function, as well as search baselines using the same edit primitives. Includes CNN accuracy readers, a layer-statistics baseline, checked PyTorch transforms for ReLU and tanh networks, and an offline pilot on three CPU tasks.",
+    "added": "2026-11-19"
+  },
+  {
+    "id": "weight-space-programming-swedish-jafarbanar",
+    "title": "Can reading a model's weights fix Swedish answers that come out in the wrong language?",
+    "authors": "JafarBanar",
+    "date": "2026-11-18",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/JafarBanar/weight-space-programming-swedish"
+    },
+    "repo": "JafarBanar/weight-space-programming-swedish",
+    "summary": "Three pre-registered rounds test a claim from Sparks of Weight-Space Programming on Swedish models. Screening Qwen2.5-1.5B-Instruct weights nominated two neurons controlling Swedish versus Danish. Deleting both missed its criteria; deleting one barely changed Swedish output on fresh data and damaged Danish in all four models. A tuned prompt and a small LoRA passed the checks.",
+    "added": "2026-11-19"
+  },
+  {
+    "id": "wsp-swedish-definiteness",
+    "title": "Weight-Space Programming for Swedish: a pre-registered negative result",
+    "authors": "Johan Tillman",
+    "date": "2026-11-19",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/johantillman/wsp-swedish-definiteness"
+    },
+    "repo": "johantillman/wsp-swedish-definiteness",
+    "summary": "A pre-registered test of a targeted rank-1 edit to one late MLP of gpt-neo-125M for Swedish definiteness. Held-out accuracy was unchanged at 78.33% (+0.0 pp, p = 1.000). Same-size random edits, a 4-shot prompt, LoRA and a steering vector also stayed at 78.33%. Includes a critical review of the original report.",
+    "added": "2026-11-19"
   }
 ]
