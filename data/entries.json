@@ -11254,5 +11254,21 @@
     "repo": "MIR-1-WSP/model-intervention-records",
     "summary": "Specification and validator for weight-space claims: each record carries an executable falsifier, an invariant set and content-addressed lineage to the base checkpoint. The worked example re-records a public run where response length dropped while GSM8K accuracy fell from 46% to 0%. Companion specs cover weight patches and record qualifiers.",
     "added": "2026-11-20"
+  },
+  {
+    "id": "in-weight-fpga-wsp",
+    "title": "In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra",
+    "authors": "zkwasm",
+    "date": "2026-11-20",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/zkwasm/in-weight-fpga-wsp"
+    },
+    "repo": "zkwasm/in-weight-fpga-wsp",
+    "summary": "Compiles a state machine into dormant SwiGLU neurons of the terminal MLP layer by closed-form linear algebra, with zero gradient steps. It modifies ~0.035% of parameters in about 30 seconds. Tested on Qwen3-8B and Llama-3.1-8B-Instruct over 3,780 three-turn dialogues, it reports beating SelfD-RL, passing 12/12 paired bootstrap tests.",
+    "added": "2026-11-20"
   }
 ]
