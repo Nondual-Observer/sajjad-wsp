@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-658-blue)
+![Entries](https://img.shields.io/badge/entries-660-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -18,16 +18,16 @@
 
 - **2026-11-20** · [lextoumbourou/weight-space-programming-experiments](https://github.com/lextoumbourou/weight-space-programming-experiments) (Analyses and Critiques)
 - **2026-11-20** · [In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra](https://github.com/zkwasm/in-weight-fpga-wsp) (Repairing behavior)
+- **2026-11-20** · [SGNE-CC v2: Training-Free Spherical Rotation of 205 down_proj Columns (0.0177%) in DeepSeek-R1-Distill-Qwen-1.5B](https://doi.org/10.5281/zenodo.24398165) (Repairing behavior)
 - **2026-11-20** · [Training Vision Models for LLM-Driven Weight-Space Programming](https://arxiv.org/abs/2611.26408) (Benchmarks and Evaluations)
 - **2026-11-20** · [WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming](https://arxiv.org/abs/2611.25476) (Other Domains)
 - **2026-11-20** · [Can an LLM Fix a Language Model Without Training It?](https://arxiv.org/abs/2611.25613) (Repairing behavior)
 - **2026-11-20** · [MIR-1-WSP/model-intervention-records](https://github.com/MIR-1-WSP/model-intervention-records) (Benchmarks and Evaluations)
+- **2026-11-20** · [Weight-Space Audit of MIT-p50c and DNA Weight Editing (SGNE-CC) on Qwen3.5-0.8B at a 32,768-Token Generation Limit](https://doi.org/10.5281/zenodo.24235218) (Repairing behavior)
 - **2026-11-20** · [mhviraf/weight-space-programming](https://github.com/mhviraf/weight-space-programming) (Benchmarks and Evaluations)
 - **2026-11-20** · [RobGruhl/weight-space-programming](https://github.com/RobGruhl/weight-space-programming) (Analyses and Critiques)
 - **2026-11-20** · [EphraiemSarabamoun/weight-space-programming-reproduction](https://github.com/EphraiemSarabamoun/weight-space-programming-reproduction) (Analyses and Critiques)
 - **2026-11-19** · [wsp-study: weight-space programming on a 125M legal QA model](https://github.com/Ace-2504/wsp-study) (Repairing behavior)
-- **2026-11-19** · [Weight-space programming for Swedish: agent-driven edits to Gemma 4 12B IT](https://github.com/v-kulish/sellma_weightspace) (Repairing behavior)
-- **2026-11-19** · [Weight-Space Programming](https://github.com/Abelo9996/weight-space-programming) (Benchmarks and Evaluations)
 
 ## 🧭 Milestones
 
@@ -40,8 +40,8 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (44)
-  - [Repairing behavior](#repairing-behavior) (32)
+- [💬 Language Models](#-language-models) (46)
+  - [Repairing behavior](#repairing-behavior) (34)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (10)
 - [🦾 Robotics and Control](#-robotics-and-control) (15)
@@ -111,12 +111,17 @@
 <a id="repairing-behavior"></a>
 
 <details>
-<summary><b>Repairing behavior (32)</b></summary>
+<summary><b>Repairing behavior (34)</b></summary>
 
 - **[In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra](https://github.com/zkwasm/in-weight-fpga-wsp)**  
   zkwasm · *GitHub* · 2026-11-20 · `💻 code / results`  
   [[Code](https://github.com/zkwasm/in-weight-fpga-wsp)] ![GitHub stars](https://img.shields.io/github/stars/zkwasm/in-weight-fpga-wsp?style=social)  
   Compiles a state machine into dormant SwiGLU neurons of the terminal MLP layer by closed-form linear algebra, with zero gradient steps. It modifies ~0.035% of parameters in about 30 seconds. Tested on Qwen3-8B and Llama-3.1-8B-Instruct over 3,780 three-turn dialogues, it reports beating SelfD-RL, passing 12/12 paired bootstrap tests.
+
+- **[SGNE-CC v2: Training-Free Spherical Rotation of 205 down_proj Columns (0.0177%) in DeepSeek-R1-Distill-Qwen-1.5B](https://doi.org/10.5281/zenodo.24398165)**  
+  Igor M. Zhuk · *Zenodo* · 2026-11-20 · `📝 preprint`  
+  [[Paper](https://doi.org/10.5281/zenodo.24398165)] [[Code](https://github.com/Nondual-Observer/deepseek-r1-1.5b-sgne-cc-v2)] [[Model](https://huggingface.co/Nondual-Observer/DeepSeek-R1-Distill-Qwen-1.5B-SGNE-CC-v2)] ![GitHub stars](https://img.shields.io/github/stars/Nondual-Observer/deepseek-r1-1.5b-sgne-cc-v2?style=social)  
+  Rotates 205 mlp.down_proj columns (0.0177% of weights, 603 KB patch) on their Euclidean spheres in DeepSeek-R1-Distill-Qwen-1.5B with no training. Calibrated on 200 MATH-500 items and tested on 1,054 problems across five suites at T=0 (32K, no penalties): accuracy goes from 60.5% to 69.5% (MATH-500 65.4% to 76.4%, MBPP 53.3% to 67.5%, BBH 68.3% to 77.5%), unclosed traces drop 87%, and length drops 2.7x. Under T=0.6 sampling, gains narrow (+2.0pp MATH-500, -0.6pp ARC).
 
 - **[wsp-study: weight-space programming on a 125M legal QA model](https://github.com/Ace-2504/wsp-study)**  
   Ace-2504 · *GitHub* · 2026-11-19 · `💻 code / results`  
@@ -162,6 +167,11 @@
   Ahmed Khamis, Rasul Tutunov, Haitham Bou Ammar · *GitHub* · 2026-11-15 · `💻 code / results`  
   [[Post](https://haithamb.github.io/aha/)] [[Code](https://github.com/Eppy-EpHard/AHA)] ![GitHub stars](https://img.shields.io/github/stars/Eppy-EpHard/AHA?style=social)  
   Builds a rank-one edit to the MLP down_proj in two layers from the model's own samples and a linear program, with no agent and no gradient step, to stop repetition loops. Qwen3.5-0.8B GSM8K test goes from 14.0 to 71.2; MATH-500 from 9.8 to 51.8; IFEval from 19.6 to 62.7.
+
+- **[Weight-Space Audit of MIT-p50c and DNA Weight Editing (SGNE-CC) on Qwen3.5-0.8B at a 32,768-Token Generation Limit](https://doi.org/10.5281/zenodo.24235218)**  
+  Igor M. Zhuk · *Zenodo* · 2026-11-15 · `📝 preprint`  
+  [[Paper](https://doi.org/10.5281/zenodo.24235218)] [[Code](https://github.com/Nondual-Observer/dna-weight-editing)] [[Model](https://huggingface.co/Nondual-Observer/Qwen3.5-0.8B-SGNE-CC)] ![GitHub stars](https://img.shields.io/github/stars/Nondual-Observer/dna-weight-editing?style=social)  
+  Audits MIT-p50c on Qwen3.5-0.8B across five benchmarks (1,128 tasks, 32,768 tokens) and compares it with SGNE-CC, a 3.13 MiB spherical edit preserving column norms within BF16 rounding (<= 0.1625% vs. +114.3% in MIT-p50c). At greedy T=0 without repetition penalties, MATH-500 rises from 5.0% (MIT-p50c) and 0% (base) to 43.0%, cutting cutoffs from 95.0% to 18.4%. Under T=0.6, pp=1.5, it matches MATH-500 (47.0% vs. 48.2%) but trails on MGSM-240 (41.7% vs. 57.1%).
 
 - **[WeightSpace: a frontier model editing small-model weights directly](https://github.com/freakwinsea/WeightSpace)**  
   freakwinsea · *GitHub* · 2026-11-13 · `💻 code / results`  
